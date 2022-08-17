@@ -1,7 +1,7 @@
 module.exports = {
   entry: {
-    bundle1: './index1.js',
-    bundle2: './index2.js'
+    bundle_a: './index_a.js',
+    bundle_b: './index_b.js'
   },
   output: {
     filename: '[name].js'
