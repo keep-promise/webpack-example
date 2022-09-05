@@ -8,7 +8,7 @@ module.exports = {
   },
   plugins: [
     new HtmlwebpackPlugin({
-      title: 'Webpack-demos',
+      title: 'Webpack-example',
       filename: 'index.html'
     }),
     new OpenBrowserPlugin({
