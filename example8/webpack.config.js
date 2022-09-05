@@ -5,7 +5,7 @@ var devFlagPlugin = new webpack.DefinePlugin({
 });
 
 module.exports = {
-  entry: './main.js',
+  entry: './index.js',
   output: {
     filename: 'bundle.js'
   },
