@@ -1,5 +1,5 @@
 {
-  "name": "webpack-demo09",
+  "name": "webpack-example8",
   "version": "1.0.0",
   "scripts": {
     "dev": "npx cross-env DEBUG=true webpack-dev-server --open",
