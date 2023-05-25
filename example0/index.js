@@ -1,1 +1,7 @@
-document.write('<div>webpack-expamle0</div>');
+import { add } from './a';
+
+
+export function render() {
+  document.write(`<div>${add('hello', ' world')}</div>`)
+}
+
