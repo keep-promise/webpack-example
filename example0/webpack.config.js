@@ -6,9 +6,11 @@
  * @type Configuration
  */
 module.exports = {
-  mode: 'production',
+  mode: 'none',
   entry: './index.js',
   output: {
-    filename: 'bundle.js'
+    filename: 'bundle.js',
+    library: 'a',
+    libraryTarget: 'umd'
   }
 };
